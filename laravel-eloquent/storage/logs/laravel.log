@@ -1,0 +1,1151 @@
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`) values (?, ?)  
+[2024-12-15 08:35:44] testing.INFO: 1  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `is_active`, `name`) values (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: 1  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO: {"id":"c001","name":"category1","description":null,"created_at":"2024-12-15 15:35:44","is_active":1}  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO: update `categories` set `name` = ? where `id` = ?  
+[2024-12-15 08:35:44] testing.INFO: {"id":"c001","name":"category 1 updated","description":null,"created_at":"2024-12-15 15:35:44","is_active":1}  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `is_active`, `name`) values (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: 1  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `description` is null and `is_active` = ?  
+[2024-12-15 08:35:44] testing.INFO: update `categories` set `description` = ? where `id` = ?  
+[2024-12-15 08:35:44] testing.INFO: update `categories` set `description` = ? where `id` = ?  
+[2024-12-15 08:35:44] testing.INFO: update `categories` set `description` = ? where `id` = ?  
+[2024-12-15 08:35:44] testing.INFO: update `categories` set `description` = ? where `id` = ?  
+[2024-12-15 08:35:44] testing.INFO: update `categories` set `description` = ? where `id` = ?  
+[2024-12-15 08:35:44] testing.INFO: [{"id":"c-1","name":"title-1","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1},{"id":"c-2","name":"title-2","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1},{"id":"c-3","name":"title-3","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1},{"id":"c-4","name":"title-4","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1},{"id":"c-5","name":"title-5","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1}]  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `is_active`, `name`) values (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: 1  
+[2024-12-15 08:35:44] testing.INFO: update `categories` set `description` = ? where `description` is null and `is_active` = ?  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `description` = ? and `is_active` = ?  
+[2024-12-15 08:35:44] testing.INFO: [{"id":"c-1","name":"title-1","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1},{"id":"c-2","name":"title-2","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1},{"id":"c-3","name":"title-3","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1},{"id":"c-4","name":"title-4","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1},{"id":"c-5","name":"title-5","description":"updated","created_at":"2024-12-15 15:35:44","is_active":1}]  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO: delete from `categories` where `id` = ?  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `is_active` = ?  
+[2024-12-15 08:35:44] testing.INFO: []  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `is_active`, `name`) values (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: 1  
+[2024-12-15 08:35:44] testing.INFO: delete from `categories` where `description` is null and `is_active` = ?  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `is_active` = ?  
+[2024-12-15 08:35:44] testing.INFO: []  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`, `description`) values (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: {"id":"c001","name":"Eko","description":"Test"}  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO: update `categories` set `name` = ?, `description` = ? where `id` = ?  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `name` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO: {"id":"c001","name":"category updated","description":"desc updated","created_at":"2024-12-15 15:35:44","is_active":1}  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`) values (?, ?)  
+[2024-12-15 08:35:44] testing.INFO: 1  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO:   
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO: {"id":"c002","name":"category2","description":null,"created_at":"2024-12-15 15:35:44","is_active":1}  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`) values (?, ?)  
+[2024-12-15 08:35:44] testing.INFO: 1  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `categories`.`id` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO: select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null  
+[2024-12-15 08:35:44] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4},{"id":"p002","name":"product 2","description":null,"price":20000,"stock":4}]  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`) values (?, ?)  
+[2024-12-15 08:35:44] testing.INFO: insert into `products` (`id`, `name`, `description`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: {"id":"p001","name":"product 1","description":"product 1 description","price":12000,"stock":11}  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:44] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:44] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:44] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:44] testing.INFO: select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null and `stock` < ?  
+[2024-12-15 08:35:44] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4},{"id":"p002","name":"product 2","description":null,"price":20000,"stock":4}]  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null order by `price` asc limit 1  
+[2024-12-15 08:35:45] testing.INFO: {"id":"p001","name":"product 1","description":null,"price":15000,"stock":4}  
+[2024-12-15 08:35:45] testing.INFO: select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null order by `price` desc limit 1  
+[2024-12-15 08:35:45] testing.INFO: {"id":"p002","name":"product 2","description":null,"price":20000,"stock":4}  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `reviews` (`product_id`, `rating`, `customer_id`, `comment`) values (?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `reviews` (`product_id`, `rating`, `customer_id`, `comment`) values (?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select `reviews`.*, `products`.`category_id` as `laravel_through_key` from `reviews` inner join `products` on `products`.`id` = `reviews`.`product_id` where `products`.`category_id` = ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":9,"product_id":"p001","rating":5,"customer_id":"c001","comment":"bagus banget","laravel_through_key":"c001"},{"id":10,"product_id":"p001","rating":3,"customer_id":"c001","comment":"lumayan","laravel_through_key":"c001"}]  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null and `price` = ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":"p002","name":"product 2","description":null,"price":20000,"stock":4}]  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select count(*) as aggregate from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null  
+[2024-12-15 08:35:45] testing.INFO: select count(*) as aggregate from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null and `price` = ?  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: {"comment":"comment default","email":"eko@.co","title":"testing","commentable_id":"p001","commentable_type":"product","updated_at":"2024-12-15T08:35:45.000000Z","created_at":"2024-12-15T08:35:45.000000Z","id":64}  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `comments` (`comment`, `title`, `email`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: {"comment":"comment default","title":"title","email":"eko@.co","commentable_id":"p001","commentable_type":"product","updated_at":"2024-12-15T08:35:45.000000Z","created_at":"2024-12-15T08:35:45.000000Z","id":65}  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `wallets` (`customer_id`, `amount`) values (?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: {"id":25,"customer_id":"c001","amount":12000}  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `wallets` (`amount`, `customer_id`) values (?, ?)  
+[2024-12-15 08:35:45] testing.INFO: {"amount":12000,"customer_id":"cs01","id":26}  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `wallets` (`customer_id`, `amount`) values (?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `customer_id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: insert into `virtual_accounts` (`bank`, `va_number`, `wallet_id`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: select `virtual_accounts`.*, `wallets`.`customer_id` as `laravel_through_key` from `virtual_accounts` inner join `wallets` on `wallets`.`id` = `virtual_accounts`.`wallet_id` where `wallets`.`customer_id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: {"id":"c001","name":"eko","email":"pzn@.co","wallets":{"id":27,"customer_id":"c001","amount":12000},"images":null,"va":{"id":5,"wallet_id":27,"bank":"BCA","va_number":"123123","laravel_through_key":"c001"}}  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4,"pivot":{"customer_id":"c001","product_id":"p001","created_at":"2024-12-15 08:35:45"}}]  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4,"pivot":{"customer_id":"c001","product_id":"p001","created_at":"2024-12-15 08:35:45"}}]  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: delete from `customers_likes_products` where (`customer_id` = ? and `product_id` = ?)  
+[2024-12-15 08:35:45] testing.INFO: select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-12-15 08:35:45] testing.INFO: []  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4,"pivot":{"customer_id":"c001","product_id":"p001","created_at":"2024-12-15 08:35:45"}}]  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4,"pivot":{"customer_id":"c001","product_id":"p001","created_at":"2024-12-15 08:35:45"}}]  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4,"pivot":{"customer_id":"c001","product_id":"p001","created_at":"2024-12-15 08:35:45"}}]  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4,"pivot":{"customer_id":"c001","product_id":"p001","created_at":"2024-12-15 08:35:45"}}]  
+[2024-12-15 08:35:45] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: {"id":"p001","name":"product 1","description":null,"price":15000,"stock":4}  
+[2024-12-15 08:35:45] testing.INFO: {"id":"c001","name":"eko","email":"pzn@.co","wallets":null,"images":null}  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4,"pivot":{"customer_id":"c001","product_id":"p001","created_at":"2024-12-15 08:35:45"}}]  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ? and `customers_likes_products`.`created_at` >= ?  
+[2024-12-15 08:35:45] testing.INFO: [{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4,"pivot":{"customer_id":"c001","product_id":"p001","created_at":"2024-12-15 08:35:45"}}]  
+[2024-12-15 08:35:45] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: {"id":"c001","name":"eko","email":"pzn@.co","wallets":null,"images":null}  
+[2024-12-15 08:35:45] testing.INFO: {"id":"p001","name":"product 1","description":null,"price":15000,"stock":4}  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `wallets` (`customer_id`, `amount`) values (?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: {"id":"c001","name":"eko","email":"pzn@.co","wallets":{"id":28,"customer_id":"c001","amount":12000},"images":null}  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:45] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:45] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-12-15 08:35:45] testing.INFO: insert into `wallets` (`customer_id`, `amount`) values (?, ?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-12-15 08:35:45] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:45] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:45] testing.INFO: {"id":"c001","name":"eko","email":"pzn@.co","wallets":{"id":29,"customer_id":"c001","amount":12000},"images":null}  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `employees` (`id`, `name`, `title`, `salary`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `employees` where `employees`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: {"id":"1","name":"Budi","title":"Programmer","salary":4000000,"created_at":"2024-12-15T08:35:46.000000Z","updated_at":"2024-12-15T08:35:46.000000Z"}  
+[2024-12-15 08:35:46] testing.INFO: insert into `employees` (`id`, `name`, `title`, `salary`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `employees` where `employees`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: {"id":"2","name":"Eko","title":"Senior Programmer","salary":10000000,"created_at":"2024-12-15T08:35:46.000000Z","updated_at":"2024-12-15T08:35:46.000000Z"}  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `people` (`first_name`, `last_name`, `updated_at`, `created_at`) values (?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: update `people` set `first_name` = ?, `last_name` = ?, `people`.`updated_at` = ? where `id` = ?  
+[2024-12-15 08:35:46] testing.INFO: {"first_name":"BUDI","last_name":"Nugraha","updated_at":"2024-12-15T08:35:46.000000Z","created_at":"1734251746","id":34}  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `people` (`first_name`, `last_name`, `updated_at`, `created_at`) values (?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: {"first_name":"EKO","last_name":"Khannedy","updated_at":"2024-12-15T08:35:46.000000Z","created_at":"1734251746","id":35}  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `people` (`first_name`, `last_name`, `address`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `people` (`first_name`, `last_name`, `updated_at`, `created_at`) values (?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `people`  
+[2024-12-15 08:35:46] testing.INFO: [
+    {
+        "id": 37,
+        "first_name": "EKO",
+        "last_name": "Khannedy",
+        "created_at": "1734251746",
+        "updated_at": "2024-12-15T08:35:46.000000Z",
+        "address": null
+    }
+]  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: {"id":"c001","name":"category1","description":null,"created_at":"2024-12-15 15:35:46","is_active":1}  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: insert into `customers_likes_products` (`customer_id`, `product_id`, `created_at`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select `customers`.*, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `customers` inner join `customers_likes_products` on `customers`.`id` = `customers_likes_products`.`customer_id` where `customers_likes_products`.`product_id` = ?  
+[2024-12-15 08:35:46] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:46] testing.INFO: [{"id":"c001","name":"eko","email":"pzn@.co","pivot":{"product_id":"p001","customer_id":"c001","created_at":"2024-12-15 08:35:46"},"wallets":null,"images":null}]  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: insert into `customers_likes_products` (`customer_id`, `product_id`, `created_at`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select `customers`.*, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `customers` inner join `customers_likes_products` on `customers`.`id` = `customers_likes_products`.`customer_id` where `customers_likes_products`.`product_id` = ?  
+[2024-12-15 08:35:46] testing.INFO: select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:46] testing.INFO: [{"id":"c001","name":"eko","email":"pzn@.co","pivot":{"product_id":"p001","customer_id":"c001","created_at":"2024-12-15 08:35:46"},"wallets":null,"images":null}]  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: delete from `customers_likes_products` where (`product_id` = ? and `customer_id` = ?)  
+[2024-12-15 08:35:46] testing.INFO: select `customers`.*, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `customers` inner join `customers_likes_products` on `customers`.`id` = `customers_likes_products`.`customer_id` where `customers_likes_products`.`product_id` = ?  
+[2024-12-15 08:35:46] testing.INFO: []  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: {"id":"p001","name":"product 1","description":null,"price":15000,"stock":4}  
+[2024-12-15 08:35:46] testing.INFO: select `customers`.*, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `customers` inner join `customers_likes_products` on `customers`.`id` = `customers_likes_products`.`customer_id` where `customers_likes_products`.`product_id` = ?  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: select * from `images` where `images`.`imageable_type` = ? and `images`.`imageable_id` = ? and `images`.`imageable_id` is not null limit 1  
+[2024-12-15 08:35:46] testing.INFO: {"id":31,"url":"www.pzn.com\/images\/1","imageable_id":"p001","imageable_type":"product"}  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: select * from `comments` where `comments`.`commentable_type` = ? and `comments`.`commentable_id` = ? and `comments`.`commentable_id` is not null  
+[2024-12-15 08:35:46] testing.INFO: [{"id":66,"email":"pzn@gmail.com","title":"Lama pengiriman","comment":"Cepat","created_at":"2024-12-15T08:35:46.000000Z","updated_at":"2024-12-15T08:35:46.000000Z","commentable_id":"p001","commentable_type":"product"},{"id":67,"email":"pzn@gmail.com","title":"Lama pengiriman","comment":"Lumayan","created_at":"2024-12-15T08:35:46.000000Z","updated_at":"2024-12-15T08:35:46.000000Z","commentable_id":"p001","commentable_type":"product"}]  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: select * from `comments` where `comments`.`commentable_type` = ? and `comments`.`commentable_id` = ? and `comments`.`commentable_id` is not null order by `created_at` desc limit 1  
+[2024-12-15 08:35:46] testing.INFO: {"id":69,"email":"pzn@gmail.com","title":"Lama pengiriman","comment":"Cepat","created_at":"2024-12-15T08:35:46.000000Z","updated_at":"2024-12-15T08:35:46.000000Z","commentable_id":"p001","commentable_type":"product"}  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `vouchers` (`id`, `name`, `voucher_code`, `is_active`) values (?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `tags` (`id`, `name`) values (?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: insert into `taggables` (`tag_id`, `taggable_id`, `taggable_type`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `vouchers` where `vouchers`.`id` = ? and `vouchers`.`deleted_at` is null limit 1  
+[2024-12-15 08:35:46] testing.INFO: insert into `taggables` (`tag_id`, `taggable_id`, `taggable_type`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` = ? limit 1  
+[2024-12-15 08:35:46] testing.INFO: select `tags`.*, `taggables`.`taggable_id` as `pivot_taggable_id`, `taggables`.`tag_id` as `pivot_tag_id`, `taggables`.`taggable_type` as `pivot_taggable_type` from `tags` inner join `taggables` on `tags`.`id` = `taggables`.`tag_id` where `taggables`.`taggable_id` = ? and `taggables`.`taggable_type` = ?  
+[2024-12-15 08:35:46] testing.INFO: [{"id":"pzn","name":"Programmer Zaman Now","pivot":{"taggable_type":"product","taggable_id":"p001","tag_id":"pzn"}}]  
+[2024-12-15 08:35:46] testing.INFO: select `vouchers`.*, `taggables`.`tag_id` as `pivot_tag_id`, `taggables`.`taggable_id` as `pivot_taggable_id`, `taggables`.`taggable_type` as `pivot_taggable_type` from `vouchers` inner join `taggables` on `vouchers`.`id` = `taggables`.`taggable_id` where `taggables`.`tag_id` = ? and `taggables`.`taggable_type` = ? and `vouchers`.`deleted_at` is null  
+[2024-12-15 08:35:46] testing.INFO: select `products`.*, `taggables`.`tag_id` as `pivot_tag_id`, `taggables`.`taggable_id` as `pivot_taggable_id`, `taggables`.`taggable_type` as `pivot_taggable_type` from `products` inner join `taggables` on `products`.`id` = `taggables`.`taggable_id` where `taggables`.`tag_id` = ? and `taggables`.`taggable_type` = ?  
+[2024-12-15 08:35:46] testing.INFO: {"id":"pzn","name":"Programmer Zaman Now","pivot":{"taggable_type":"product","taggable_id":"p001","tag_id":"pzn"},"vouchers":[{"id":"v001","name":"flashsale","voucher_code":"123","created_at":"2024-12-15 15:35:46","deleted_at":null,"is_active":1,"pivot":{"taggable_type":"voucher","tag_id":"pzn","taggable_id":"v001"}}],"products":[{"id":"p001","name":"product 1","description":null,"price":15000,"stock":4,"pivot":{"taggable_type":"product","tag_id":"pzn","taggable_id":"p001"}}]}  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products`  
+[2024-12-15 08:35:46] testing.INFO: select * from `products` where `products`.`id` in (?, ?) and `price` = ?  
+[2024-12-15 08:35:46] testing.INFO: [{"id":"p002","name":"product 2","description":null,"price":20000,"stock":4}]  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:46] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-12-15 08:35:46] testing.INFO: select * from `products`  
+[2024-12-15 08:35:46] testing.INFO: [
+    {
+        "id": "p001",
+        "name": "product 1",
+        "description": null,
+        "price": 15000,
+        "stock": 4
+    },
+    {
+        "id": "p002",
+        "name": "product 2",
+        "description": null,
+        "price": 20000,
+        "stock": 4
+    }
+]  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:46] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:47] testing.INFO: insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: insert into `products` (`id`, `name`, `price`, `stock`, `category_id`) values (?, ?, ?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: select * from `products`  
+[2024-12-15 08:35:47] testing.INFO: select * from `categories` where `categories`.`id` in (?) and `is_active` = ?  
+[2024-12-15 08:35:47] testing.INFO: select * from `images` where `images`.`imageable_id` in (?, ?) and `images`.`imageable_type` = ?  
+[2024-12-15 08:35:47] testing.INFO: [
+    {
+        "id": "p001",
+        "name": "product 1",
+        "description": null,
+        "price": 15000,
+        "stock": 4,
+        "categories": {
+            "id": "c001",
+            "name": "category1",
+            "description": null,
+            "created_at": "2024-12-15 15:35:47",
+            "is_active": 1
+        },
+        "images": {
+            "id": 33,
+            "url": "www.pzn.com\/images\/1",
+            "imageable_id": "p001",
+            "imageable_type": "product"
+        }
+    },
+    {
+        "id": "p002",
+        "name": "product 2",
+        "description": null,
+        "price": 20000,
+        "stock": 4,
+        "categories": {
+            "id": "c001",
+            "name": "category1",
+            "description": null,
+            "created_at": "2024-12-15 15:35:47",
+            "is_active": 1
+        },
+        "images": null
+    }
+]  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:47] testing.INFO: insert into `vouchers` (`name`, `id`, `voucher_code`) values (?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: {"name":"vc123","id":"9dbab1ef-0458-40d4-ab24-b276037f1009","voucher_code":"9dbab1ef-091e-405e-94db-4d4d1299b042"}  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:47] testing.INFO: insert into `vouchers` (`name`, `id`, `voucher_code`) values (?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: {"name":"vc123","id":"9dbab1ef-1bb3-42b7-8c26-380535cb6580","voucher_code":"9dbab1ef-1bc3-405b-b4e8-302ad9e982af"}  
+[2024-12-15 08:35:47] testing.INFO: select * from `vouchers` where `name` = ? and `vouchers`.`deleted_at` is null limit 1  
+[2024-12-15 08:35:47] testing.INFO: update `vouchers` set `deleted_at` = ? where `id` = ?  
+[2024-12-15 08:35:47] testing.INFO: select * from `vouchers` where `name` = ? and `vouchers`.`deleted_at` is null limit 1  
+[2024-12-15 08:35:47] testing.INFO:   
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:47] testing.INFO: insert into `vouchers` (`name`, `id`, `voucher_code`) values (?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: {"name":"vc123","id":"9dbab1ef-3857-4ac6-bdac-6bbd36b57477","voucher_code":"9dbab1ef-386d-44ee-8538-e43e462166df"}  
+[2024-12-15 08:35:47] testing.INFO: select * from `vouchers` where `name` = ? and `vouchers`.`deleted_at` is null limit 1  
+[2024-12-15 08:35:47] testing.INFO: update `vouchers` set `deleted_at` = ? where `id` = ?  
+[2024-12-15 08:35:47] testing.INFO: select * from `vouchers` where `name` = ? and `vouchers`.`deleted_at` is null limit 1  
+[2024-12-15 08:35:47] testing.INFO:   
+[2024-12-15 08:35:47] testing.INFO: select * from `vouchers`  
+[2024-12-15 08:35:47] testing.INFO: [{"id":"9dbab1ef-3857-4ac6-bdac-6bbd36b57477","name":"vc123","voucher_code":"9dbab1ef-386d-44ee-8538-e43e462166df","created_at":"2024-12-15 15:35:47","deleted_at":"2024-12-15T08:35:47.000000Z","is_active":1}]  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:47] testing.INFO: insert into `vouchers` (`name`, `id`, `voucher_code`) values (?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: {"name":"vc123","id":"9dbab1ef-5190-413f-b91f-c3000e2dbe36","voucher_code":"9dbab1ef-519a-4f2f-8aa9-82833f5e2c73"}  
+[2024-12-15 08:35:47] testing.INFO: select * from `vouchers` where `is_active` = ? and `vouchers`.`deleted_at` is null  
+[2024-12-15 08:35:47] testing.INFO: [{"id":"9dbab1ef-5190-413f-b91f-c3000e2dbe36","name":"vc123","voucher_code":"9dbab1ef-519a-4f2f-8aa9-82833f5e2c73","created_at":"2024-12-15 15:35:47","deleted_at":null,"is_active":1}]  
+[2024-12-15 08:35:47] testing.INFO: insert into `vouchers` (`id`, `name`, `is_active`, `voucher_code`) values (?, ?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: select * from `vouchers` where `is_active` = ? and `vouchers`.`deleted_at` is null  
+[2024-12-15 08:35:47] testing.INFO: [{"id":"vc2","name":"voucher2","voucher_code":"9dbab1ef-533d-4388-970f-2867b3ed95fd","created_at":"2024-12-15 15:35:47","deleted_at":null,"is_active":0}]  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM employees  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM people  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers_likes_products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM taggables  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM tags  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM reviews  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM images  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM products  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM categories  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM vouchers  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM comments  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM virtual_accounts  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM wallets  
+[2024-12-15 08:35:47] testing.INFO: DELETE FROM customers  
+[2024-12-15 08:35:47] testing.INFO: insert into `vouchers` (`id`, `name`, `voucher_code`, `is_active`) values (?, ?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: insert into `comments` (`comment`, `email`, `title`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-12-15 08:35:47] testing.INFO: select * from `vouchers` where `vouchers`.`id` = ? and `vouchers`.`deleted_at` is null limit 1  
+[2024-12-15 08:35:47] testing.INFO: select * from `comments` where `comments`.`commentable_type` = ? and `comments`.`commentable_id` = ? and `comments`.`commentable_id` is not null  
+[2024-12-15 08:35:47] testing.INFO: [{"id":74,"email":"pzn@gmail.com","title":"Voucher Belanja","comment":"Gratis ongkir","created_at":"2024-12-15T08:35:47.000000Z","updated_at":"2024-12-15T08:35:47.000000Z","commentable_id":"v001","commentable_type":"voucher"}]  
