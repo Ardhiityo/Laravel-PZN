@@ -1,0 +1,423 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "API Title",
+    "description": "API Description",
+    "termsOfService": "https://api.server.test/terms",
+    "version": "1.0",
+    "license": {
+      "name": "Apache 2.0",
+      "url": "https://api.server.test/license"
+    },
+    "contact": {
+      "name": "Arya Adhi Prasetyo",
+      "email": "aryaadi229@gmail.com",
+      "url": "https://example.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://{environment}.server.test/v1",
+      "description": "Todolist RESTful API Server",
+      "variables": {
+        "environment": {
+          "default": "dev",
+          "description": "Environment Server",
+          "enum": ["test", "production", "dev"]
+        }
+      }
+    }
+  ],
+  "paths": {
+    "/todolist": {
+      "summary": "Todo List",
+      "description": "Todo List API",
+      "get": {
+        "security": [
+          {
+            "TodolistAuth": []
+          }
+        ],
+        "tags": ["todolist"],
+        "summary": "Get all todo list",
+        "description": "Get all todo list",
+        "parameters": [
+          {
+            "name": "include_done",
+            "description": "Include done todo list",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "nullable": true,
+              "default": false
+            }
+          },
+          {
+            "name": "name",
+            "description": "Filter todolist by name",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "nullable": true,
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "examples": {
+              "java": {
+                "description": "Filter by Java",
+                "value": "java"
+              },
+              "php": {
+                "description": "Filter by PHP",
+                "value": "php"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success get all todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ArrayTodolist"
+                },
+                "examples": {
+                  "success": {
+                    "description": "Example success get all todolist",
+                    "value": [
+                      {
+                        "id": "1",
+                        "name": "Java",
+                        "priority": 1,
+                        "tags": ["java", "springboot"]
+                      },
+                      {
+                        "id": "2",
+                        "name": "PHP",
+                        "priority": 3,
+                        "tags": ["php", "laravel"]
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "security": [
+          {
+            "TodolistAuth": []
+          }
+        ],
+        "tags": ["todolist"],
+        "summary": "Create new todo",
+        "description": "Create new todo",
+        "requestBody": {
+          "description": "Todo object that needs to be added",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrUpdateTodolist"
+              },
+              "examples": {
+                "java": {
+                  "description": "Java todo",
+                  "value": {
+                    "name": "Learn java",
+                    "priority": 1,
+                    "tags": ["java", "springboot"]
+                  }
+                },
+                "php": {
+                  "description": "PHP todo",
+                  "value": {
+                    "name": "Learn php",
+                    "priority": 3,
+                    "tags": ["php", "laravel"]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success create todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Todolist"
+                },
+                "examples": {
+                  "java": {
+                    "description": "Success create java todolist",
+                    "value": {
+                      "id": "1",
+                      "name": "Java",
+                      "priority": 1,
+                      "tags": ["java", "springboot"]
+                    }
+                  },
+                  "php": {
+                    "description": "Success create php todolist",
+                    "value": {
+                      "id": "2",
+                      "name": "PHP",
+                      "priority": 3,
+                      "tags": ["php", "laravel"]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/todolist/{id}": {
+      "summary": "Todo List",
+      "description": "Todo List API",
+      "put": {
+        "security": [
+          {
+            "TodolistAuth": []
+          }
+        ],
+        "tags": ["todolist"],
+        "summary": "Update todo",
+        "description": "Update todo",
+        "requestBody": {
+          "description": "Todo object that needs to be updated",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrUpdateTodolist"
+              },
+              "examples": {
+                "java": {
+                  "description": "Java todo",
+                  "value": {
+                    "name": "Learn java",
+                    "priority": 1,
+                    "tags": ["java", "springboot"]
+                  }
+                },
+                "php": {
+                  "description": "PHP todo",
+                  "value": {
+                    "name": "Learn php",
+                    "priority": 3,
+                    "tags": ["php", "laravel"]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success update todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Todolist"
+                },
+                "examples": {
+                  "java": {
+                    "description": "Success create java todolist",
+                    "value": {
+                      "id": "1",
+                      "name": "Java",
+                      "priority": 1,
+                      "tags": ["java", "springboot"]
+                    }
+                  },
+                  "php": {
+                    "description": "Success create php todolist",
+                    "value": {
+                      "id": "2",
+                      "name": "PHP",
+                      "priority": 3,
+                      "tags": ["php", "laravel"]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "security": [
+          {
+            "TodolistAuth": []
+          }
+        ],
+        "tags": ["todolist"],
+        "summary": "Delete todo",
+        "description": "Delete todo",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "schema": {}
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success delete todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "examples": {
+                  "success": {
+                    "description": "Success delete todolist",
+                    "value": {
+                      "success": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Failed delete notfound todolist",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "examples": {
+                  "failed": {
+                    "description": "Failed delete todolist",
+                    "value": {
+                      "success": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "url": "https://api.server.test/docs",
+    "description": "Find more info here"
+  },
+  "components": {
+    "parameters": {
+      "id": {
+        "name": "id",
+        "description": "Todo ID for updated",
+        "required": true,
+        "in": "path",
+        "schema": {
+          "type": "integer",
+          "default": 1,
+          "nullable": false,
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "examples": {
+          "java": {
+            "description": "Todo ID for Java",
+            "value": 1
+          },
+          "php": {
+            "description": "Todo ID for PHP",
+            "value": 2
+          }
+        }
+      }
+    },
+    "schemas": {
+      "Todolist": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "number",
+            "format": "int32"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "CreateOrUpdateTodolist": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "priority": {
+            "type": "integer",
+            "format": "int32",
+            "default": 1
+          },
+          "tags": {
+            "type": "array",
+            "minLength": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": ["name", "priority"]
+      },
+      "ArrayTodolist": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Todolist"
+        }
+      }
+    },
+    "securitySchemes": {
+      "TodolistAuth": {
+        "description": "Authentication for todolist RESTful API",
+        "type": "apiKey",
+        "name": "X-API-Key",
+        "in": "header"
+      }
+    }
+  }
+}
