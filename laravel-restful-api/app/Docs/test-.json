@@ -1,0 +1,450 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Laravel Restful Api - PZN",
+    "collectionId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+    "dateExported": "2025-01-25T08:57:54.704Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "aeb722bd-5967-4366-a1bc-d17f0db8ba23",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "User Register",
+            "url": "http://localhost:8000/api/users",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-01-25T08:20:47.258Z",
+            "modified": "2025-01-25T08:22:23.077Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "eko"
+                    },
+                    {
+                        "name": "name",
+                        "value": "eko khannedy"
+                    },
+                    {
+                        "name": "password",
+                        "value": "rahasia"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "0403ca5f-fc00-4892-ab8e-85b6c1894ed8",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "User Login",
+            "url": "http://localhost:8000/api/users/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-01-25T08:22:52.727Z",
+            "modified": "2025-01-25T08:35:24.444Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "eko"
+                    },
+                    {
+                        "name": "password",
+                        "value": "new password"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "662af86b-3b19-40f6-949e-30e7b1514516",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "User Current",
+            "url": "http://localhost:8000/api/users/current",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-01-25T08:24:16.880Z",
+            "modified": "2025-01-25T08:35:40.539Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "2e39b045-13f6-4a3f-a554-40d9fc50117d",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "User Update",
+            "url": "http://localhost:8000/api/users/current",
+            "method": "PATCH",
+            "sortNum": 60000,
+            "created": "2025-01-25T08:25:20.711Z",
+            "modified": "2025-01-25T08:35:36.922Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"budi jarwo\",\n  \"password\" : \"new password\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c50cd5b4-224c-4a04-b9d1-6812b4d436d1",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "User Logout",
+            "url": "http://localhost:8000/api/users/logout",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2025-01-25T08:33:50.453Z",
+            "modified": "2025-01-25T08:34:44.493Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "85ec3b6a-84ea-4ec0-a859-1d5520d3fe78"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "ae5348eb-b754-442a-bd10-ff30c7829dae",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Create Contact",
+            "url": "http://localhost:8000/api/contacts",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2025-01-25T08:37:18.305Z",
+            "modified": "2025-01-25T08:38:58.688Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstname\" : \"eko\",\n  \"lastname\" : \"khannedy\",\n  \"email\" : \"pzn@gmail.com\",\n  \"phone\" : \"089666\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "97f981d3-b09c-4fb4-b71a-a4351b3f1b19",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Search Contact",
+            "url": "http://localhost:8000/api/contacts?name=eko",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2025-01-25T08:39:21.668Z",
+            "modified": "2025-01-25T08:40:08.474Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "eko",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "01546841-497b-4da8-9863-da9066ada1aa",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Update Contact",
+            "url": "http://localhost:8000/api/contacts/29900",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2025-01-25T08:41:01.821Z",
+            "modified": "2025-01-25T08:45:00.047Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstname\" : \"ekooo\",\n  \"lastname\" : \"khanedyyy\",\n  \"email\" : \"eko@gmail.com\",\n  \"phone\" : \"12345\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d81a4618-a25c-4693-9d24-5491e59ad14b",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Get Contact",
+            "url": "http://localhost:8000/api/contacts/29900",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2025-01-25T08:45:26.324Z",
+            "modified": "2025-01-25T08:45:57.292Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "5262f022-a848-4489-81e0-62ff44aad3ab",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Delete Contact",
+            "url": "http://localhost:8000/api/contacts/29900",
+            "method": "DELETE",
+            "sortNum": 120000,
+            "created": "2025-01-25T08:46:26.582Z",
+            "modified": "2025-01-25T08:46:59.727Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "f1e71fb6-38df-4e8d-aa55-6b2b4e8c1d42",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Create Address",
+            "url": "http://localhost:8000/api/contacts/29901/addresses",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2025-01-25T08:48:12.842Z",
+            "modified": "2025-01-25T08:52:28.877Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"street\" : \"jl. braga\",\n  \"city\" : \"bandung\",\n  \"province\" : \"jawa barat\",\n  \"country\" : \"indonesia\",\n  \"postal_code\" : \"42411\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "dc3d7e98-289e-4475-a922-405f7ac7ba97",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Get List Address",
+            "url": "http://localhost:8000/api/contacts/29901/addresses",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2025-01-25T08:53:08.097Z",
+            "modified": "2025-01-25T08:53:36.398Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "4eb53834-0164-41ef-9722-f0e840264c18",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Get Address",
+            "url": "http://localhost:8000/api/contacts/29901/addresses/345",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2025-01-25T08:54:05.622Z",
+            "modified": "2025-01-25T08:54:53.728Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "ab9c4d60-4d0e-4f05-bd1b-025e46de7385",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Update Address",
+            "url": "http://localhost:8000/api/contacts/29901/addresses/345",
+            "method": "PUT",
+            "sortNum": 160000,
+            "created": "2025-01-25T08:55:14.193Z",
+            "modified": "2025-01-25T08:56:23.247Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"street\" : \"jl. baru\",\n  \"city\" : \"baru\",\n  \"province\" : \"baruuu\",\n  \"country\" : \"baruuuuuu\",\n  \"postal_code\" : \"321\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f14869e7-7d5f-4ee0-b247-115701ee5a02",
+            "colId": "19f35d6a-9920-41a4-a353-7b029b4a2bd8",
+            "containerId": "",
+            "name": "Delete Address",
+            "url": "http://localhost:8000/api/contacts/29901/addresses/345",
+            "method": "DELETE",
+            "sortNum": 170000,
+            "created": "2025-01-25T08:56:47.063Z",
+            "modified": "2025-01-25T08:57:16.596Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "6bf43bf4-ae48-424a-96b7-f903f54922bb"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        }
+    ],
+    "ref": "7fYU9xpYsB-yRn-bQ2SMCs78G7NbcfCUjTB_jcFJyOoBBjFJGfykJSbJvSvSwWNEWrVqjJcdBl-r4TONhrzkxQ"
+}
